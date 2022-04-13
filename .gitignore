@@ -5,3 +5,6 @@
 !/plugins/system/vmqrcode/**
 !/.gitignore
 !/sass.sh
+!/*.png
+!/LICENSE
+!/README.md
