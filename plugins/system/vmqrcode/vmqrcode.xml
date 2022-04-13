@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="plugin" group="cmgiftcard" method="upgrade">
+	<name>PLG_SYSTEM_VMQRCODE</name>
+	<version>1.0.0</version>
+	<author>CMExtension</author>
+	<authorEmail>cmext.vn@gmail.com</authorEmail>
+	<authorUrl>www.cmextension.com</authorUrl>
+	<creationDate>April 14th, 2022</creationDate>
+	<copyright>(C) 2022 CMExtension</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<description>PLG_SYSTEM_VMQRCODE_DESCRIPTION</description>
+	<files>
+		<folder>language</folder>
+		<folder>vendor</folder>
+		<filename>composer.json</filename>
+		<filename>composer.lock</filename>
+		<filename plugin="vmqrcode">vmqrcode.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="qr_code_size"
+					type="number"
+					label="PLG_SYSTEM_VMQRCODE_QR_CODE_SIZE_LABEL"
+					description="PLG_SYSTEM_VMQRCODE_QR_CODE_SIZE_DESC"
+					default="150"
+					min="0"
+					step="1"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

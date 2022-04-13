@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.9" method="upgrade">
+	<name>com_vmqrcode</name>
+	<version>1.0.0</version>
+	<author>CMExtension</author>
+	<authorEmail>cmext.vn@gmail.com</authorEmail>
+	<authorUrl>www.cmextension.com</authorUrl>
+	<creationDate>April 14th, 2022</creationDate>
+	<copyright>(C) 2022 CMExtension</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<description>COM_VMQRCODE_XML_DESCRIPTION</description>
+
+	<administration>
+		<menu>com_vmqrcode</menu>
+
+		<files folder="admin">
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>language</folder>
+			<folder>layouts</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>vmqrcode.php</filename>
+		</files>
+	</administration>
+</extension>
+

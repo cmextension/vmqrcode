@@ -1,0 +1,7 @@
+*
+!*/
+!/administrator/components/com_vmqrcode/**
+!/components/com_vmqrcode/**
+!/plugins/system/vmqrcode/**
+!/.gitignore
+!/sass.sh
