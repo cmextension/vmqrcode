@@ -3,6 +3,7 @@
 !/administrator/components/com_vmqrcode/**
 !/components/com_vmqrcode/**
 !/plugins/system/vmqrcode/**
+!/screenshots/**
 !/.gitignore
 !/sass.sh
 !/*.png
