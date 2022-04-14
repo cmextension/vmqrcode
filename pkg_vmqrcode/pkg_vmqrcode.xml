@@ -14,7 +14,7 @@
 	<packager>CMExtension</packager>
 	<packagerurl>https://www.cmextension.com/</packagerurl>
 	<updateservers>
-		<server type="extension" name="VirtueMart QR Code Updates" priority="1">https://cmextension.com/updates/vmqrcode.xml</server>
+		<server type="extension" name="VirtueMart QR Code Updates" priority="1">https://raw.githubusercontent.com/cmextension/vmqrcode/updates.xml</server>
 	</updateservers>
 	<files folder="packages">
 		<folder type="component" id="com_vmqrcode">com_vmqrcode</folder>
