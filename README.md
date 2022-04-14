@@ -8,6 +8,8 @@ VirtueMart QR Code contains 2 Joomla! extensions:
 
 - VirtueMart QR Code component: for scanning the QR code created by the plugin and showing the QR code's VirtueMart order.
 
+The QR code scanner used in this Joomla! extension is [Html5-QRCode](https://github.com/mebjas/html5-qrcode).
+
 ## Technical Requirements
 
 - VirtueMart 3
@@ -28,7 +30,7 @@ In Joomla! back-end, enable `System - VirtueMart QR Code` plugin. In the configu
 
 ### Show QR Code in PDF and Email
 
-Access VirtueMart in your Joomla! back-end, navigate to `Shop` on the left menu (`yourdomain/administrator/index.php?option=com_virtuemart&view=user&task=editshop`), then click `Invoices/Emails` tab, in `Invoice Head` section add `{vm:qrcode}` to where you want QR code to be shown.
+Access VirtueMart in your Joomla! back-end, navigate to `Shop` on the left menu (`YOUR_DOMAIN/administrator/index.php?option=com_virtuemart&view=user&task=editshop`), then click `Invoices/Emails` tab, in `Invoice Head` section add `{vm:qrcode}` to where you want QR code to be shown.
 
 ![](screenshots/vmqrcode-guide-invoice-head.png)
 
@@ -54,7 +56,9 @@ Check an order in Joomla! front-end to see if QR code is visible.
 
 ### The Component
 
-Access the QR code scanner by navigating to `Components` ->  `VirtueMart QR Code` in Joomla! back-end's top menu, the scanner (camera) is on the left side of the screen, the recent scanned orders are on the right side.
+Access the QR code scanner by navigating to `Components` ->  `VirtueMart QR Code` in Joomla! back-end's top menu, your browser asks for permission to access your device's camera, the scanner (camera) is on the left side of the screen, the recent scanned orders are on the right side.
+
+![](screenshots/vmqrcode-guide-scanner.png)
 
 To configure the maximum quantity of recent order shown, click the `Options` button on the toolbar.
 
@@ -63,6 +67,8 @@ To configure the maximum quantity of recent order shown, click the `Options` but
 Show QR code in front of your camera, if the order is found, the order is shown in a modal.
 
 ![](screenshots/vmqrcode-guide-modal.png)
+
+
 
 ## License
 
