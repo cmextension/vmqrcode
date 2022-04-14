@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.9" method="upgrade">
+	<name>VirtueMart QR Code</name>
+	<description>Installation package for VirtueMart QR Code Joomla! extension.</description>
+	<version>1.0.0</version>
+	<creationDate>April 14th, 2022</creationDate>
+	<author>CMExtension</author>
+	<authorEmail>cmext.vn@gmail.com</authorEmail>
+	<authorUrl>www.cmextesion.com</authorUrl>
+	<copyright>(C) 2022 CMExtension</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<packagename>vmqrcode</packagename>
+	<url>https://www.cmextension.com/</url>
+	<packager>CMExtension</packager>
+	<packagerurl>https://www.cmextension.com/</packagerurl>
+	<updateservers>
+		<server type="extension" name="VirtueMart QR Code Updates" priority="1">https://cmextension.com/updates/vmqrcode.xml</server>
+	</updateservers>
+	<files folder="packages">
+		<folder type="component" id="com_vmqrcode">com_vmqrcode</folder>
+		<folder type="plugin" id="plg_system_vmqrcode" group="system">plg_system_vmqrcode</folder>
+	</files>
+</extension>

@@ -1,11 +1,11 @@
 *
 !*/
-!/administrator/components/com_vmqrcode/**
-!/components/com_vmqrcode/**
-!/plugins/system/vmqrcode/**
-!/screenshots/**
 !/.gitignore
-!/sass.sh
-!/*.png
+!/administrator/components/com_vmqrcode/**
+!/build.sh
+!/components/com_vmqrcode/**
 !/LICENSE
+!/pkg_vmqrcode/pkg_vmqrcode.xml
+!/plugins/system/vmqrcode/**
 !/README.md
+!/screenshots/**
